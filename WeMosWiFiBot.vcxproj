@@ -48,10 +48,10 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\WeMosWiFiBot;$(ProjectDir)..\..\..\Program Files (x86)\Arduino\libraries;$(ProjectDir)..\..\..\Users\baris\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.4.0\libraries;$(ProjectDir)..\..\..\Users\baris\Documents\Arduino\libraries;$(ProjectDir)..\..\..\Users\baris\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.4.0\cores\esp8266;$(ProjectDir)..\..\..\Users\baris\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.4.0\cores\esp8266\libb64;$(ProjectDir)..\..\..\Users\baris\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.4.0\cores\esp8266\spiffs;$(ProjectDir)..\..\..\Users\baris\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.4.0\cores\esp8266\umm_malloc;$(ProjectDir)..\..\..\Users\baris\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.4.0\variants\d1_mini;$(ProjectDir)..\..\..\Users\baris\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.4.0\tools\sdk\include;$(ProjectDir)..\..\..\Users\baris\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.4.0\tools\sdk\lwip2\include;$(ProjectDir)..\..\..\Users\baris\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.4.0\tools\sdk\libc\xtensa-lx106-elf\include;$(ProjectDir)..\..\..\Users\baris\AppData\Local\arduino15\packages\esp8266\tools\xtensa-lx106-elf-gcc\1.20.0-26-gb404fb9-2\xtensa-lx106-elf\include\c++\4.8.2;$(ProjectDir)..\..\..\Users\baris\AppData\Local\arduino15\packages\esp8266\tools\xtensa-lx106-elf-gcc\1.20.0-26-gb404fb9-2\xtensa-lx106-elf\include\c++\4.8.2\xtensa-lx106-elf;$(ProjectDir)..\..\..\Users\baris\AppData\Local\arduino15\packages\esp8266\tools\xtensa-lx106-elf-gcc\1.20.0-26-gb404fb9-2\xtensa-lx106-elf\include;$(ProjectDir)..\..\..\Users\baris\AppData\Local\arduino15\packages\esp8266\tools\xtensa-lx106-elf-gcc\1.20.0-26-gb404fb9-2\lib\gcc\xtensa-lx106-elf\4.8.2\include;$(ProjectDir)..\..\..\Users\baris\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.4.0\tools\sdk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\WeMosWiFiBot;$(ProjectDir)..\..\..\Users\baris\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.4.0\libraries\Wire;$(ProjectDir)..\..\..\Users\baris\Documents\Arduino\libraries\Adafruit-PWM-Servo-Driver-Library;$(ProjectDir)..\..\..\Program Files (x86)\Arduino\libraries;$(ProjectDir)..\..\..\Users\baris\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.4.0\libraries;$(ProjectDir)..\..\..\Users\baris\Documents\Arduino\libraries;$(ProjectDir)..\..\..\Users\baris\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.4.0\cores\esp8266;$(ProjectDir)..\..\..\Users\baris\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.4.0\cores\esp8266\libb64;$(ProjectDir)..\..\..\Users\baris\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.4.0\cores\esp8266\spiffs;$(ProjectDir)..\..\..\Users\baris\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.4.0\cores\esp8266\umm_malloc;$(ProjectDir)..\..\..\Users\baris\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.4.0\variants\d1_mini;$(ProjectDir)..\..\..\Users\baris\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.4.0\tools\sdk\include;$(ProjectDir)..\..\..\Users\baris\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.4.0\tools\sdk\lwip2\include;$(ProjectDir)..\..\..\Users\baris\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.4.0\tools\sdk\libc\xtensa-lx106-elf\include;$(ProjectDir)..\..\..\Users\baris\AppData\Local\arduino15\packages\esp8266\tools\xtensa-lx106-elf-gcc\1.20.0-26-gb404fb9-2\xtensa-lx106-elf\include\c++\4.8.2;$(ProjectDir)..\..\..\Users\baris\AppData\Local\arduino15\packages\esp8266\tools\xtensa-lx106-elf-gcc\1.20.0-26-gb404fb9-2\xtensa-lx106-elf\include\c++\4.8.2\xtensa-lx106-elf;$(ProjectDir)..\..\..\Users\baris\AppData\Local\arduino15\packages\esp8266\tools\xtensa-lx106-elf-gcc\1.20.0-26-gb404fb9-2\xtensa-lx106-elf\include;$(ProjectDir)..\..\..\Users\baris\AppData\Local\arduino15\packages\esp8266\tools\xtensa-lx106-elf-gcc\1.20.0-26-gb404fb9-2\lib\gcc\xtensa-lx106-elf\4.8.2\include;$(ProjectDir)..\..\..\Users\baris\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.4.0\tools\sdk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>$(ProjectDir)__vm\.WeMosWiFiBot.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <IgnoreStandardIncludePath>false</IgnoreStandardIncludePath>
-      <PreprocessorDefinitions>__ESP8266_ESp8266__;__ESP8266_ESP8266__;_VMDEBUG=1;__ets__;ICACHE_FLASH;F_CPU=80000000L;LWIP_OPEN_SRC;TCP_MSS=536;ARDUINO=10805;ARDUINO_ESP8266_WEMOS_D1MINILITE;ARDUINO_ARCH_ESP8266;ESP8266;__cplusplus=201103L;_VMICRO_INTELLISENSE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>__ESP8266_ESp8266__;__ESP8266_ESP8266__;__ets__;ICACHE_FLASH;F_CPU=80000000L;LWIP_OPEN_SRC;TCP_MSS=536;ARDUINO=10805;ARDUINO_ESP8266_WEMOS_D1MINILITE;ARDUINO_ARCH_ESP8266;ESP8266;__cplusplus=201103L;_VMICRO_INTELLISENSE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -60,10 +60,14 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
-      <Optimization>MaxSpeed</Optimization>
+      <Optimization>Disabled</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\WeMosWiFiBot;$(ProjectDir)..\..\..\Users\baris\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.4.0\libraries\Wire;$(ProjectDir)..\..\..\Users\baris\Documents\Arduino\libraries\Adafruit-PWM-Servo-Driver-Library;$(ProjectDir)..\..\..\Program Files (x86)\Arduino\libraries;$(ProjectDir)..\..\..\Users\baris\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.4.0\libraries;$(ProjectDir)..\..\..\Users\baris\Documents\Arduino\libraries;$(ProjectDir)..\..\..\Users\baris\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.4.0\cores\esp8266;$(ProjectDir)..\..\..\Users\baris\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.4.0\cores\esp8266\libb64;$(ProjectDir)..\..\..\Users\baris\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.4.0\cores\esp8266\spiffs;$(ProjectDir)..\..\..\Users\baris\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.4.0\cores\esp8266\umm_malloc;$(ProjectDir)..\..\..\Users\baris\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.4.0\variants\d1_mini;$(ProjectDir)..\..\..\Users\baris\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.4.0\tools\sdk\include;$(ProjectDir)..\..\..\Users\baris\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.4.0\tools\sdk\lwip2\include;$(ProjectDir)..\..\..\Users\baris\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.4.0\tools\sdk\libc\xtensa-lx106-elf\include;$(ProjectDir)..\..\..\Users\baris\AppData\Local\arduino15\packages\esp8266\tools\xtensa-lx106-elf-gcc\1.20.0-26-gb404fb9-2\xtensa-lx106-elf\include\c++\4.8.2;$(ProjectDir)..\..\..\Users\baris\AppData\Local\arduino15\packages\esp8266\tools\xtensa-lx106-elf-gcc\1.20.0-26-gb404fb9-2\xtensa-lx106-elf\include\c++\4.8.2\xtensa-lx106-elf;$(ProjectDir)..\..\..\Users\baris\AppData\Local\arduino15\packages\esp8266\tools\xtensa-lx106-elf-gcc\1.20.0-26-gb404fb9-2\xtensa-lx106-elf\include;$(ProjectDir)..\..\..\Users\baris\AppData\Local\arduino15\packages\esp8266\tools\xtensa-lx106-elf-gcc\1.20.0-26-gb404fb9-2\lib\gcc\xtensa-lx106-elf\4.8.2\include;$(ProjectDir)..\..\..\Users\baris\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.4.0\tools\sdk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(ProjectDir)__vm\.WeMosWiFiBot.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <PreprocessorDefinitions>__ESP8266_ESp8266__;__ESP8266_ESP8266__;__ets__;ICACHE_FLASH;F_CPU=80000000L;LWIP_OPEN_SRC;TCP_MSS=536;ARDUINO=10805;ARDUINO_ESP8266_WEMOS_D1MINILITE;ARDUINO_ARCH_ESP8266;ESP8266;__cplusplus=201103L;_VMICRO_INTELLISENSE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -80,7 +84,36 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Pamux\App\RobotHand.h" />
+    <ClInclude Include="Pamux\App\WeMosWiFiBotApp.h" />
+    <ClInclude Include="Pamux\Lib\ArduinoApp.h" />
+    <ClInclude Include="Pamux\Lib\BuiltInLED.h" />
+    <ClInclude Include="Pamux\Lib\DCMotor.h" />
+    <ClInclude Include="Pamux\Lib\DifferentialDrive.h" />
+    <ClInclude Include="Pamux\Lib\I2C.h" />
+    <ClInclude Include="Pamux\Lib\Logger.h" />
+    <ClInclude Include="Pamux\Lib\NoOpLogger.h" />
+    <ClInclude Include="Pamux\Lib\Common.h" />
+    <ClInclude Include="Pamux\Lib\Object.h" />
+    <ClInclude Include="Pamux\Lib\WemosMotor.h" />
+    <ClInclude Include="Pamux\Lib\WiFi.h" />
+    <ClInclude Include="Pamux\Lib\SerialLogger.h" />
+    <ClInclude Include="Pamux\Lib\Servo.h" />
     <ClInclude Include="__vm\.WeMosWiFiBot.vsarduino.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Pamux\App\WeMosWiFiBotApp.cpp" />
+    <ClCompile Include="Pamux\Lib\ArduinoApp.cpp" />
+    <ClCompile Include="Pamux\Lib\BuiltInLED.cpp" />
+    <ClCompile Include="Pamux\Lib\DCMotor.cpp" />
+    <ClCompile Include="Pamux\Lib\DifferentialDrive.cpp" />
+    <ClCompile Include="Pamux\Lib\Common.cpp" />
+    <ClCompile Include="Pamux\Lib\I2C.cpp" />
+    <ClCompile Include="Pamux\Lib\Object.cpp" />
+    <ClCompile Include="Pamux\Lib\WemosMotor.cpp" />
+    <ClCompile Include="Pamux\Lib\WiFi.cpp" />
+    <ClCompile Include="Pamux\Lib\Servo.cpp" />
+    <ClCompile Include="Pamux\App\RobotHand.cpp" />
   </ItemGroup>
   <PropertyGroup>
     <DebuggerFlavor>VisualMicroDebugger</DebuggerFlavor>
